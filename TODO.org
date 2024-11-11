@@ -1,0 +1,36 @@
+#+SEQ_TODO: NEXT(n) TODO(t) IN-PROGRESS(i) WAITING(w), SOMEDAY(s) PROJ(p) | DONE(d) CANCELLED(c)
+
+* project structure [3/4]
+** DONE mkdir src
+** DONE mkdir tests
+** DONE touch README.md Makefile TODO.md
+** NEXT setup git and .gitignore file
+
+* utility 1. temperature conversions [2/3]
+:LOGBOOK:
+- Note taken on [2024-11-07 Thu 10:42] \\
+  conversions:
+  celcius_kelvin/2
+  celcius_fahrenheit/2
+:END:
+** DONE source code
+** DONE tests
+** NEXT documentation
+* utility 2. pressure conversions [2/3]
+:LOGBOOK:
+- Note taken on [2024-11-07 Thu 12:10] \\
+  pressure units implemented
+  Pa is the main unit. conversion between minor units (eg. Torr->psi goes via Pascal).
+  other units are: bar, at, atm, torr, lbf/in^2 (psi).
+:END:
+** DONE source code
+** DONE tests
+** NEXT documentation
+* utility 3. dimensionless numbers [0/3]
+:LOGBOOK:
+- Note taken on [2024-11-07 Thu 14:13] \\
+  the utility contains the unit less numbers like Reynolds number for pipe flow, and so forth.
+:END:
+** IN-PROGRESS source code
+** NEXT tests
+** NEXT documentation
