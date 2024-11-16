@@ -27,7 +27,7 @@
 ** DONE source code
 ** DONE tests
 ** NEXT documentation
-* utility 3. length conversions [1/3]
+* utility 3. length conversions [2/3]
 :LOGBOOK:
 - Note taken on [2024-11-12 Tue 20:13] \\
   converters:
@@ -36,16 +36,19 @@
 
 ** DONE source code
 CLOSED: [2024-11-12 Tue 20:12]
-** TODO tests
+** DONE tests
+CLOSED: [2024-11-13 Wed 10:25]
 ** TODO documentation
-* utility 4. time conversion [0/3]
+* utility 4. time conversion [2/3]
 :LOGBOOK:
 - Note taken on [2024-11-12 Tue 20:14] \\
   time converters:
   min to seconds, hour to seconds, day to seconds, year to seconds.
 :END:
-** TODO source code
-** TODO tests
+** DONE source code
+CLOSED: [2024-11-13 Wed 10:41]
+** DONE tests
+CLOSED: [2024-11-13 Wed 12:13]
 ** TODO ocumentation
 
 * utility 4. Area conversions [0/3]
@@ -54,7 +57,7 @@ CLOSED: [2024-11-12 Tue 20:12]
   area conversions:
   in^2 to mm^2, ft^2 to m^2, yd^2 to m^2, acre to m^2, mile^2 to km^2.
 :END:
-** TODO source code
+** NEXT source code
 ** TODO tests
 ** TODO ocumentation
 * utility 5. volume conversions [0/3]
