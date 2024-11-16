@@ -41,3 +41,4 @@ test(kelvin_to_rankine4) :-
     K is 100.0.
 
 % test(testN) :- fail.
+:- end_tests(convert_temperature).

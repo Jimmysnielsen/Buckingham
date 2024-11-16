@@ -66,5 +66,3 @@ test(pascal_to_psi4) :-
     Pa is 2.0 * 6894.757293168.
 
 :- end_tests(convert_pressure).
-
-			
